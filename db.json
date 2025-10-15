@@ -1,0 +1,64 @@
+{
+  "missions": [
+    {
+      "id": 1,
+      "title": "Livraison FID 002",
+      "status": "TERMINE",
+      "heure": "2025-10-14T14:00:00Z",
+      "description": "Mission terminée sans incident",
+      "vehicle_id": 1,
+      "driver": "Rabe Mickael",
+      "depart": "Antananarivo",
+      "arrivee": "Toamasina"
+    },
+    {
+      "id": 2,
+      "title": "Nanao page mission",
+      "status": "EN COURS",
+      "heure": "2025-10-15T08:00:00Z",
+      "description": "Page mission misy page maromaro lesy leh",
+      "vehicle_id": 2,
+      "driver": "Rakoto Jean",
+      "depart": "Antsirabe",
+      "arrivee": "Mahajanga"
+    },
+    {
+      "id": 3,
+      "title": "Inspection véhicule",
+      "status": "EN ATTENTE",
+      "heure": "2025-10-16T09:30:00Z",
+      "description": "Vérification du véhicule avant départ",
+      "vehicle_id": 3,
+      "driver": "Ando Fetra",
+      "depart": "Antananarivo",
+      "arrivee": "Moramanga"
+    }
+  ],
+
+  "vehicles": [
+    {
+      "id": 1,
+      "matricule": "1234 TAA",
+      "marque": "Toyota Hilux",
+      "couleur": "Blanc",
+      "etat": "Actif",
+      "kilometrage": 120000
+    },
+    {
+      "id": 2,
+      "matricule": "5678 TBB",
+      "marque": "Nissan Navara",
+      "couleur": "Gris",
+      "etat": "En mission",
+      "kilometrage": 95000
+    },
+    {
+      "id": 3,
+      "matricule": "9123 TCC",
+      "marque": "Mitsubishi L200",
+      "couleur": "Rouge",
+      "etat": "Maintenance",
+      "kilometrage": 180000
+    }
+  ]
+}
